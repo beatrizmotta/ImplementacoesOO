@@ -1,0 +1,18 @@
+
+{
+"numeroMatricula": 146046,
+"nome": "RENATO",
+"dataNasc": "12/06/2008",
+"responsaveis": [
+    {
+        "nome": "XXXXXXX",
+        "telefone": 213213324
+    }
+],
+"serie": 4,
+"tipoDeEnsino": "MÉDIO",
+"turno": "MATUTINO",
+"valorMensalidade": "R$200.55",
+"dataVencFatura": 25,
+"suspenso": false
+}

@@ -1,3 +1,5 @@
+import Domain.Aluno;
+
 import java.util.Scanner;
 
 public class AlunoManager {

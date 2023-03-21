@@ -62,7 +62,7 @@ public class Main{
 
     public static void Menu(){
         
-        System.out.print("Escolha uma das opções seguintes:\n1 - Acessar o sistema como Administrador\n2 - Acessar o sistema como Professor\n3 - Acessar o sistema como Aluno\n4 - Sair\nOpção: ");
+        System.out.print("Escolha uma das opções seguintes:\n1 - Acessar o sistema como Administrador\n2 - Acessar o sistema como Professor\n3 - Acessar o sistema como Domain.Aluno\n4 - Sair\nOpção: ");
         Scanner input = new Scanner(System.in);
         int escolha = input.nextInt();
         
