@@ -1,6 +1,4 @@
 package org.grupo4.implementacoesoo;
 
-public class LoginFacade extends  {
-
-
+public class LoginProfessorFacade {
 }

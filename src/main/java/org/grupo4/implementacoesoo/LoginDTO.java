@@ -2,6 +2,7 @@ package org.grupo4.implementacoesoo;
 
 public class LoginDTO {
     private String id;
+    private String senha;
 
     public String getId() {
         return id;
@@ -18,8 +19,4 @@ public class LoginDTO {
     public void setSenha(String senha) {
         this.senha = senha;
     }
-
-    private String senha;
-
-
 }

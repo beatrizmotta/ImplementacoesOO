@@ -17,15 +17,18 @@ public class AdministradorRepository implements UserRepository {
         Administrador administrador = new Administrador();
 
         try {
-            FileReader fileReader = new FileReader("../admins.json");
-            System.out.println("Consegui passar pelo primeiro try");
+            FileReader fileReader = new FileReader("archives/admins.json");
             try {
+                System.out.println("Consegui passar pelo segundo try");
                 Object adminObject = new JSONParser().parse(fileReader);
 
                 JSONObject adminObjectJSON = (JSONObject) adminObject;
 
                 administrador.setId((String) adminObjectJSON.get("id"));
                 administrador.setSenha((String) adminObjectJSON.get("senha"));
+
+                System.out.println(administrador.getId());
+                System.out.println(administrador.getSenha());
 
             } catch (final ParseException e) {
                 System.out.println("Não foi possível ler os dados do admin.");
